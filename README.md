@@ -1,8 +1,8 @@
 # lab-rep3
 
-##PART 1
+## PART 1
 
-##PART 2 \n\n
+## PART 2 \n\n
 I will be using the `find` command for this report. \n\n
 
 the first option i used was `-type`. \n\n
