@@ -3,9 +3,9 @@
 ## PART 1
 
 ## PART 2 
-I will be using the `find` command for this report. br/
+I will be using the `find` command for this report. br /
 
-the first option i used was `-type`. br/
+the first option i used was `-type`. <br/>
 
 ~~~
 kreshivchawla@Kreshivs-MacBook-Air docsearch % find technical -type d
