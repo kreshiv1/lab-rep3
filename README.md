@@ -2,10 +2,10 @@
 
 ## PART 1
 
-## PART 2 \n\n
-I will be using the `find` command for this report. \n\n
+## PART 2 
+I will be using the `find` command for this report. br/
 
-the first option i used was `-type`. \n\n
+the first option i used was `-type`. br/
 
 ~~~
 kreshivchawla@Kreshivs-MacBook-Air docsearch % find technical -type d
