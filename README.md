@@ -2,6 +2,70 @@
 
 ## PART 1
 
+FAILED TEST-
+```
+import static org.junit.Assert.assertArrayEquals;
+public class TestReverseInPlace {
+  @org.junit.Test
+  public void testReverseInPlace() {
+    int[] input1 = {3, 4, 5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5, 4, 3}, input1);
+  }
+}
+```
+PASSED TEST-
+```
+import static org.junit.Assert.assertArrayEquals;
+public class TestReverseInPlace {
+  @org.junit.Test
+  public void testReverseInPlace() {
+    int[] input1 = {3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3}, input1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CODE BEFORE FIXING BUG-
+```
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+  arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+CODE AFTER FIXING BUG-
+```
+ static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[i];
+      
+    }
+  }
+```
+
+
+
+
+
+
+
 ## PART 2 
 I will be using the `find` command for this report. <br/>
 
